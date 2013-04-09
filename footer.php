@@ -19,4 +19,3 @@
 <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
 <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-carousel.js"></script>
 <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-<script src="http://bootswatch.com/js/bootswatch.js"></script>

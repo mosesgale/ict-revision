@@ -22,7 +22,21 @@
 		<li><a href="#5">Tables</a></li>
 	</ul>
 </div>
-	<h3>Sections</h3>
+<ul class="nav nav-tabs" id="tabs">
+	<li class="active"><a href="#intro">Introduction</a></li>
+	<li><a href="#computers">Computers</a></li>
+	<li><a href="#input">Input devices</a></li>
+	<li><a href="#output">Output devices</a></li>
+	<li><a href="#storage">Storage devices</a></li>
+	<li><a href="#backing">Backing storage</a></li>
+	<li><a href="#summary">Summary</a></li>
+</ul>
+<div class="tab-content">
+	<div class="tab-pane active" id="intro">
+		Introduction
+		<hr>
+	<div class="row-fluid">
+	<h3>Topics</h3>
 	<div class="well">
 		<ul class="nav nav-list">
 			<li><a href="./section1">1. Computers and Hardware</a></li>
@@ -44,7 +58,27 @@
 	<p><a name="3">Nullam et tellus nisi. Sed cursus</a>, sapien eget egestas lobortis, eros elit dapibus augue, sit amet dapibus sapien magna nec velit. Nunc quis augue nulla, et semper quam. Morbi et neque et tellus posuere egestas a eget sem. Nulla posuere ornare urna, in facilisis justo tristique ut. Nullam pellentesque lacus sit amet massa rhoncus pretium. Morbi magna nunc, aliquam congue adipiscing nec, ultrices dignissim eros. Aliquam congue felis ut nulla imperdiet egestas. Mauris hendrerit hendrerit semper. Sed hendrerit vehicula tempor.</p>
 	<p><a name="4">Nulla porttitor ultrices mi id rutrum</a>. Nulla pretium molestie quam, id tempor velit ultricies eget. Sed fringilla odio ipsum. Duis rutrum, mauris sit amet consectetur cursus, felis purus consectetur odio, in facilisis dolor tortor eget lacus. Integer convallis euismod fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vehicula tempus turpis vitae faucibus. Quisque facilisis vulputate turpis, vel tristique nisl tempor dignissim. Cras laoreet est eget massa molestie facilisis. Fusce a lacus non orci suscipit dapibus quis nec nisi. Nullam scelerisque, sem vel suscipit luctus, turpis tortor commodo libero, vitae pulvinar ligula odio vitae nibh. Donec sed purus urna, in faucibus leo. Nullam ac lacus velit, eu commodo leo.</p>
 	<p><a name="5">Morbi congue tortor nibh. Mauris rutrum</a> faucibus ligula sit amet rutrum. Duis ultricies metus vel lorem elementum in bibendum nisl ullamcorper. Fusce dapibus mollis gravida. Aenean luctus, quam quis faucibus pretium, nibh elit dictum lorem, non molestie leo felis eget lorem. Donec magna lectus, tempor id auctor ut, gravida tincidunt erat. Aenean a lacus eu orci accumsan tincidunt. Donec viverra justo et mi mattis in tincidunt diam varius. Integer tincidunt ultricies orci, in ultricies mauris auctor nec. Curabitur sed sapien sit amet dolor vehicula ultrices. Etiam imperdiet libero nec felis luctus vulputate. Aliquam semper nunc quis neque tincidunt vestibulum.</p>
+	</div>
+	<div class="tab-pane" id="computers">
+		Computers
+	</div>
+	<div class="tab-pane" id="input">
+		Input devices
+	</div>
+	<div class="tab-pane" id="output">
+		Output devices
+	</div>
+	<div class="tab-pane" id="storage">
+		Storage devices
+	</div>
+	<div class="tab-pane" id="backing">
+		Backing storage
+	</div>
+	<div class="tab-pane" id="summary">
+		Summary
+	</div>
 </div>
+</div> <!-- /container -->
 <?php include'footer.php' ?>
 </body>
 </html>

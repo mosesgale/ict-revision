@@ -30,7 +30,7 @@
 			<li class="nav-header">NOTE:</br>Each section relates to a section in the CGP revision guide</li>
 		</ul>
 	</div>
-</div>
+</div> <!-- /container -->
 <?php include'footer.php' ?>
 </body>
 </html>
